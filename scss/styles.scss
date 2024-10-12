@@ -1,0 +1,142 @@
+.xl-text {
+  font-size: 75px;
+}
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-sticky {
+  background: white;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.btn-outline-secondary {
+  color: var(--bs-secondary);
+}
+.btn-outline-secondary {
+  &:hover {
+    color: #fff;
+  }
+}
+.header .decoration-star {
+  top: 80;
+  left: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+.header .decoration-star2 {
+  top: 80;
+  right: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+.details .decoration-star {
+  top: 80;
+  left: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+
+.details-2.decoration-star2 {
+  top: 80;
+  right: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+.details-2 .decoration-star {
+  position: absolute; /* Make sure it has position absolute if you want it to position relative to the parent */
+  top: 80px; /* Add px unit */
+  right: -300px; /* Add px unit */
+  width: 500px; /* Width as desired */
+  opacity: 0.7; /* Transparency */
+}
+.contact .decoration-star {
+  top: 80;
+  left: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+.contact .decoration-star2 {
+  top: 80;
+  right: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+.to-top-btn {
+  position: fixed;
+  z-index: 20;
+  bottom: 20px;
+  right: 20px;
+  border: 0;
+  opacity: 0;
+  background: #4555d2;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.to-top-btn {
+  img {
+    margin-bottom: 0.25rem;
+    width: 18px;
+  }
+}
+
+.to-top-btn:hover {
+  background-color: #1d1d21;
+}
+
+.show {
+  opacity: 1;
+}
+@media (max-width: 992px) {
+  .xl-text {
+    font-size: 50px;
+  }
+  .navbar {
+    .btn-outline-secondary {
+      margin-top: 20px;
+    }
+  }
+  .header {
+    margin-top: 0 !important;
+    text-align: center;
+  }
+
+  .header .decoration-star {
+    left: -100px;
+    width: 250px;
+  }
+  .header .decoration-star2 {
+    right: -100px;
+    width: 250px;
+  }
+  .header .image-container {
+    margin-top: 30px;
+  }
+  .details .decoration-star {
+    left: -100px;
+    width: 250px;
+  }
+  .services .col-md-4 {
+    border-bottom: 1px #ccc solid;
+    margin: 10px 0;
+  }
+
+  .details-2 {
+    margin-top: 15px !important;
+  }
+  .details-2 .decoration-star {
+    right: -150px;
+    width: 250px;
+  }
+
+  .details-2 .decoration-star2 {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+}
